@@ -2,6 +2,7 @@ package com.project.diceroller.exceptions;
 
 public class DiceServiceException extends Exception {
 
+
     public DiceServiceException(Exception ex) {
         super(ex);
     }

@@ -8,6 +8,8 @@ public class DiceRollDaoImpl implements DiceRollDao{
 
     @Override
     public boolean isSupportedNumberOfSides(int numberOfSides) {
+
+
         for (int supportedSides : SUPPORTED_SIDES) {
             if (numberOfSides == supportedSides) {
                 return true;
